@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/styles.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+
+  <title>Post-Pandemic</title>
+  <link rel="icon" type="image/SVG" href="img/ISOTIPO.svg" style="width: 75px; height: 75px;" />
+
+</head>
+
+<body>
+
+  <header>
+
+
+    <!-- -----------------------------------------------------------------------Navbar------------ -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary" style="opacity: 100%;">
+
+      <a href="index.html" class="mx-5 px-4 isotipo-logo">
+        <img src="img/ISOTIPO.svg" style="width: 58px; height: 58px;" alt="isotipo">
+
+      </a>
+
+      <button class="navbar-toggler mx-5 px-4 collapsed" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse mx-5 px-4 collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+          <!-- Add class Active -->
+
+          <li class="nav-item mx-auto">
+            <a class="nav-link" type="button" href="2noticias.html">Noticias</a>
+          </li>
+
+          <li class="nav-item mx-auto">
+            <a class="nav-link " type="button" href="3origen.html">Origen</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <!-- ---------------------------------------------------------POST PANDEMIC_IMG_SVG-------------- -->
+    <div class="row justify-content-start container-fluid m-auto p-2">
+
+      <div class="col-12 col-lg-10  col-xl-10 m-auto p-5">
+        <div class="row justify-content-start textos">
+          <div class="col-12 col-lg-12 col-xl-12 ">
+            <img src="img/Post-Pandemic.svg" alt="..." class="img-fluid xl-lg-m-5 pt-5 "
+              style="max-height: 230px; min-height: auto;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------------------------BOTON SUBIR------------------ -->
+    <div class="fixed-bottom botonsubirtl botonsubirmon" id="boton" style="visibility: hidden;">
+      <a href="#"><img src="img/IR ARRIBA.svg" style="max-height: 40px" alt="Subir"></a>
+    </div>
+
+
+  </header>
+
+
+
+  <!-- -------------------------------------------------Puntos--principales--de la página---------------- -->
+  <div class="container-fluid fijo">
+    <div class="row">
+
+
+      <!-- ---------------------¿Que es el Covid?---------------------- -->
+      <div class="col-12 col-lg-12 col-xl-12 fondo">
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-6 col-xl-6 pt-5 pb-2 px-5 m-auto p-lg-5 p-xl-5">
+
+            <h1 class="animate__animated animate__bounceInDown" id="queEs">¿Qué es?</h1>
+            <p>
+              COVID‑19. Enfermedad infecciosa causada por por el virus coronavirus 2
+              del síndrome respiratorio agudo grave (SARS-CoV-2) que se ha descubierto más recientemente.
+            </p>
+
+            <a href="#" type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modal1">Saber
+              más...</a>
+
+          </div>
+
+          <div
+            class="col-12 col-md-6 col-lg-5 col-xl-5 pb-5  p-lg-3 p-xl-3 imagen-grids animate__animated  animate__fadeInRightBig"
+            id="queEs">
+            <img src="img/Que-Es.svg" alt="¿Que es?">
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ---------------------Como se transmite---------------------- -->
+      <div class="col-12 col-lg-12 col-xl-12 fondo02 pb-5 m-auto">
+
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4 hiddeImagenInTelf imagen-grids" id="transmite1"
+            style="visibility: hidden;">
+            <img src="img/Como-Se-Transmite-1.svg" alt="Covid-19">
+          </div>
+
+          <div class="col-10 col-md-10 col-lg-5 col-xl-5 m-auto p-3">
+            <h1>¿Cómo se transmite esta enfermedad?</h1>
+            <p>
+              El virus se trasmite por gotitas respiratorias que se liberan cuando alguien que lo
+              tiene tose, estornuda o habla. Una persona que está cerca puede inhalar estas gotitas,
+              o las gotas pueden caerle en la boca o en la nariz, y si tocamos objetos o superficies
+              que han estado en contacto con el virus.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-3 col-lg-3 col-xl-3 m-auto p-1 m-auto hiddeImagenInTelf imagen-grids"
+            id="transmite2" style="visibility: hidden;">
+            <img src="img/Como-se-transmite-2.svg " alt="Covid-19">
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ---------------------Sintomas Covid---------------------- -->
+      <div class="col-12 col-lg-12 col-xl-12 fondo03">
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-6 col-xl-6 pb-2 px-5 m-auto p-lg-5 p-xl-5" id="sintomas1"
+            style="visibility: hidden;">
+            <h1>Sintomas</h1>
+            <p>
+              Fiebre, tos, dolor de garganta, de cabeza o
+              muscular, fatiga, dolor en el cuerpo y goteo
+              nasal, cansancio...
+            </p>
+
+            <a href="#" type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modal2">Saber
+              más...</a>
+
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-5 col-xl-5 p-3 imagen-grids" id="sintomas2" style="visibility: hidden;">
+            <img src="img/Sintomas.svg" alt="Sintomas">
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <!-- -----------------------------------------------MEDIDAS DE PREVENCIÓN---------------------- -->
+
+
+      <!-- -------------------TITLE----------------- -->
+      <div class="container-fluid m-auto">
+        <div class="row">
+
+          <div class="col-12 col-lg-12 col-xl-12 m-auto">
+            <div class="row">
+
+              <div class="col-12 col-md-6 col-lg-3 col-xl-3 hiddeImagenInTelf imagen-grids m-auto">
+                <img src="img/f-medidas-Medicos.svg" alt="Covid-19">
+              </div>
+
+              <div class="col-10 col-md-10 col-lg-6 col-xl-6 m-auto">
+
+                <h1 class="Medidas">MEDIDAS DE PREVENCIÓN</h1>
+                <p class="texto-00">
+                  ¿Cómo protegerse y proteger a los demás?
+                </p>
+
+              </div>
+
+              <div class="col-12 col-md-3 col-lg-3 col-xl-3 hiddeImagenInTelf imagen-grids m-auto">
+                <img src="img/f-medidas-_MedidasPrevAgrupadas.svg " alt="Covid-19">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ---------------------------Medidas-------------------------- -->
+
+      <div class="container-fluid m-2 p-5">
+        <div class="row">
+
+
+          <!-- -----------------------Lavado de manos---------------------------->
+
+          <div class="col-10 col-lg-3 col-xl-4  m-auto p-5">
+
+            <div class="d-flex justify-content-center" id="lavado" style="visibility: visible;">
+
+              <img src="img/Lavado_de_Manos.svg" alt="Cuidado-de-manos" class="covid">
+              <rect width="100%" height="100%" fill="#777" />
+
+            </div>
+
+            <h1 class="prevenir" style="text-align: center;">
+              HIGIENE DE MANOS
+            </h1>
+
+            <p class="prevenir02" style="text-align: center;">
+              Lave sus manos frecuentemente.
+            </p>
+
+            <p class="d-flex justify-content-center">
+              <a class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample01"
+                aria-expanded="false" aria-controls="collapseExample" href="#" role="button">Ver detalles &raquo;</a>
+            </p>
+
+            <!-- -----parrafo desplegado----- -->
+            <div class="collapse" id="collapseExample01">
+              <div class="card card-body">
+                <p class="parrafo-botones">
+                  Lávese las manos después de haber estado en un lugar público, despues de haber recibido dinero, o
+                  después de sonarse la nariz, toser o estornudar.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <!-- ----------------------- Distanciamiento---------------------------->
+
+          <div class="col-10 col-lg-3 col-xl-4  m-auto p-5">
+
+            <div class="d-flex justify-content-center" id="distancia" style="visibility: visible;">
+
+              <img src="img/Distanciamiento_Social.svg" alt="Distancia-Social" class="covid">
+              <rect width="100%" height="100%" fill="#777" />
+
+            </div>
+
+            <h1 class="prevenir" style="text-align: center;">
+              DISTANCIAMIENTO SOCIAL
+            </h1>
+
+            <p class="prevenir02" style="text-align: center;">
+              Evite el contacto cercano menor a 2 metros.
+            </p>
+
+            <p class="d-flex justify-content-center">
+              <a class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample02"
+                aria-expanded="false" aria-controls="collapseExample" href="#" role="button">Ver detalles &raquo;</a>
+            </p>
+
+            <div class="collapse" id="collapseExample02">
+              <div class="card card-body">
+                <p class="parrafo-botones">
+                  Mantenga distancia de otras personas fuera de su hogar. Algunas de estás personas pueden contraer el
+                  virus, aunque estas no presenten sintomas en ocasiones.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <!-- ----------------------- Mascarilla ---------------------------->
+
+          <div class="col-10 col-lg-3 col-xl-4  m-auto p-5">
+
+            <div class="d-flex justify-content-center" id="mascarilla" style="visibility: visible;">
+
+              <img src="img/Uso_de_Mascarilla.svg" alt="Mascarilla" class="covid">
+              <rect width="100%" height="100%" fill="#777" />
+
+            </div>
+
+            <h1 class="prevenir" style="text-align: center;">
+              MASCARILLA
+            </h1>
+
+            <p class="prevenir02" style="text-align: center;">
+              Uso de la mascarilla fuera de casa.
+            </p>
+
+            <p class="d-flex justify-content-center">
+              <a class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample03"
+                aria-expanded="false" aria-controls="collapseExample" href="#" role="button">Ver detalles &raquo;</a>
+            </p>
+
+            <div class="collapse" id="collapseExample03">
+              <div class="card card-body">
+                <p class="parrafo-botones">
+                  Use la mascarilla al salir de casa. Las mascarillas pueden proteger de la infección a las personas que
+                  las llevan y evitar que aquellas que presentan síntomas propaguen la enfermedad; por ejemplo: para ir
+                  a la tienda de comestibles, si necesita ir al banco, o si va en el autobus.
+              </div>
+              </p>
+            </div>
+
+          </div>
+
+
+          <!-- ----------------------- Use Gel antibacterial ---------------------------->
+
+          <div class="col-10 col-lg-3 col-xl-4  m-auto p-5">
+
+            <div class="d-flex justify-content-center" id="gel" style="visibility: visible;">
+
+              <img src="img/Uso_de_Antibacterial.svg" alt="Gel" clas class="covid">
+              <rect width="100%" height="100%" fill="#777" />
+
+            </div>
+
+            <h1 class="prevenir" style="text-align: center;">
+              GEL ANTIBACTERIAL
+            </h1>
+
+            <p class="prevenir02" style="text-align: center;">
+              contrarresta bacterias y virus del diario vivir!
+            </p>
+
+            <p class="d-flex justify-content-center">
+              <a class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample04"
+                aria-expanded="false" aria-controls="collapseExample" href="#" role="button">Ver detalles &raquo;</a>
+            </p>
+
+            <div class="collapse" id="collapseExample04">
+              <div class="card card-body">
+                <p class="parrafo-botones">
+                  Use gel ANTIBACTERIAL, al no contar con la posibilidad de lavarse las manos ya que constantemente
+                  estamos expuestos a una gran cantidad de bacterias y virus, por la contaminación, en el transporte
+                  público, en la calle, en el trabajo, etc., que pueden llegar afectar nuestra salud.
+                </p>
+              </div>
+            </div>
+
+
+          </div>
+
+
+          <!-- -----------------------Quedarse en casa---------------------------->
+
+          <div class="col-10 col-lg-3 col-xl-4  m-auto p-5">
+
+            <div class="d-flex justify-content-center" id="casa" style="visibility: visible;">
+
+              <img src="img/quedate_en_casa.svg" alt="Casa" class="covid">
+              <rect width="100%" height="100%" fill="#777" />
+
+            </div>
+
+            <h1 class="prevenir" style="text-align: center;">
+              QUEDATE EN CASA
+            </h1>
+
+            <P class="prevenir02" style="text-align: center;">
+              Permanezca en casa, no se exponga.
+            </P>
+
+            <p class="d-flex justify-content-center">
+              <a class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample05"
+                aria-expanded="false" aria-controls="collapseExample" href="#" role="button">Ver detalles &raquo;</a>
+            </p>
+
+            <div class="collapse" id="collapseExample05">
+              <div class="card card-body">
+                <p class="parrafo-botones">
+                  Al quedarnos en casa, evitamos la propagación del virus.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <!-- ----------------------- No te toques la cara ---------------------------->
+
+          <div class="col-10 col-lg-3 col-xl-4  m-auto p-5">
+
+            <div class="d-flex justify-content-center" id="rostro" style="visibility: visible;">
+
+              <img src="img/no_tocarse_la_cara.svg" alt="manos" class="covid">
+              <rect width="100%" height="100%" fill="#777" />
+
+            </div>
+            <h1 class="prevenir" style="text-align: center;">
+              EVITE TOCARSE LA CARA
+            </h1>
+
+            <p class="prevenir02" style="text-align: center;">
+              En especial los ojos, la nariz y la boca.
+            </p>
+
+            <p class="d-flex justify-content-center">
+              <a class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample06"
+                aria-expanded="false" aria-controls="collapseExample" href="#" role="button">Ver detalles &raquo;</a>
+            </p>
+
+            <div class="collapse" id="collapseExample06">
+              <div class="card card-body">
+                <p class="parrafo-botones">
+                  Las personas están en contacto con el mundo la mayor parte del tiempo a través de las MANOS. A través
+                  de
+                  ellas se manipula todo tipo de objetos esto también las convierte en las principales portadoras de
+                  gérmenes y virus.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+      <!-- ----------------------------------------------------CARTAS BOOTSTRAP------------------------------- -->
+
+
+      <!-- -------------------TITLE----------------- -->
+
+      <div class="col-10 col-lg-11 col-xl-11 m-auto pt-5">
+        <div class="row">
+          <div class="col-12 col-lg-12 col-xl-12 m-auto p-5 puntos-interes" id="interes" style="visibility: hidden;">
+            <h1>OTROS PUNTOS DE INTERES...</h1>
+            <p>
+              Conoce más sobre el desarrollo de esta enfermedad!
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- -------------------Cartas----------------- -->
+
+      <div class="container-fluid m-auto p-5">
+        <div class="row">
+
+          <div class="col-12 col-md-12 col-lg-12 col-xl-12 m-auto p-5" id="cartasx">
+            <div class="card-deck">
+
+              <div class="card cartas">
+                <div class="card-body" style="background-image: url('img/mundo.svg'); background-size: cover;">
+                  <h5 class="card-title">PAÍSES MÁS AFECTADOS EN EL MUNDO POR COVID-19</h5>
+                  <p class="card-text texto"><small>Conoce más de este tema...</small></p>
+
+                  <a href="4paises.html" class="btn btn-secondary boton" type="button">
+                    Obtener información...
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="card cartas">
+                <div class="card-body" style="background-image: url('img/cuerpo.svg'); background-size: cover;">
+                  <h5 class="card-title">¿CÓMO AFECTA EL CORONAVIRUS A TU CUERPO?</h5>
+                  <p class="card-text texto"><small>Conoce más de este tema...</small></p>
+
+                  <a href="5cuerpo.html" class="btn btn-secondary boton" type="button">
+                    Obtener información...
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="card cartas">
+                <div class="card-body" style="background-image: url('img/vulnerables.svg'); background-size: cover;">
+                  <h5 class="card-title">POBLACIÓN MÁS VULNERABLE A ESTA ENFERMEDAD</h5>
+                  <p class="card-text texto"><small>Conoce más de este tema...</small></p>
+
+                  <a href="6vulnerables.html" class="btn btn-secondary boton" type="button">
+                    Obtener información...
+                  </a>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ---------------------------- -----------------------CIERRE DE PAGINA-------------------------- -->
+      <div class="col-12 col-lg-12 col-xl-12 fondo02">
+
+        <div class="row">
+
+
+          <div class="col-12 col-lg-5 col-xl-5 p-3" id="batalla" style="visibility: hidden;">
+            <img src="img/Jeringa.svg" alt="batalla">
+          </div>
+
+          <div class="col-12 col-lg-6 col-xl-6 m-auto p-5" id="batalla2" style="visibility: hidden;">
+            <h1>Para ganar necesitamos de todos</h1><span class="text-muted">Cumple con las medidas de aislamiento y
+              estaremos a salvo!</span>
+            <p>
+              El mundo se une, para ganar la batalla contra el Covid-19
+              Mientras no exista la vacuna, la mejor medicina es quedarse en casa.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- Ventanas Modales -->
+
+  <div class="container-fluid fijo">
+    <div class="row">
+      <!-- Modal 1 -->
+      <div class="modal fade  fondo" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true" aria-modal="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title ml-5" id="exampleModalLabel">¿Que es?</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+
+            <!-- ----------------inicio texto---------------- -->
+            <div class="modal-body row container-fluid">
+              <div class="col-12 col-xl-7 col-lg-7  p-3 p-lg-5 ">
+                <p class="P-modal">
+                  Los coronavirus (CoV) son virus que surgen periódicamente en
+                  diferentes áreas del mundo y que causan Infección Respiratoria
+                  Aguda (IRA), es decir gripa, que pueden llegar a ser leve,
+                  moderada o grave.
+
+                  Los coronavirus son una extensa familia de virus que pueden causar
+                  enfermedades tanto en animales como en humanos. En los humanos, se
+                  sabe que varios coronavirus causan infecciones respiratorias que
+                  pueden ir desde el resfriado común hasta enfermedades más graves
+                  como el síndrome respiratorio de Oriente Medio (MERS) y
+                  el síndrome respiratorio agudo severo (SRAS), que se ha descubierto
+                  más recientemente denominado Covid-19.
+                </p>
+              </div>
+              <div class="col-12 col-lg-5 col-xl-5 p-3">
+                <img src="img/Que-Es.svg" alt="¿Que es?">
+              </div>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal 2 -->
+      <div class="modal fade  fondo" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true" aria-modal="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title ml-5" id="exampleModalLabel">Sintomas</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+
+            <!-- ----------------inicio texto---------------- -->
+            <div class="modal-body row container-fluid">
+              <div class="col-12 col-xl-7 col-lg-7  p-3 p-lg-5 ">
+                <p class="P-modal">
+                  Otros síntomas menos frecuentes que afectan a algunos pacientes son la conjuntivitis, la diarrea,
+                  la pérdida del gusto o el olfato y las erupciones cutáneas o cambios de color en los dedos de las
+                  manos o los pies. Estos síntomas suelen ser leves y comienzan gradualmente. Algunas de las personas
+                  infectadas solo presentan síntomas levísimos.
+                </p>
+              </div>
+              <div class="col-12 col-lg-5 col-xl-5 p-3">
+                <img src="img/Sintomas.svg" alt="Sintomas">
+              </div>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <footer>
+
+
+    <div class="container-fluid m-auto p-5">
+      <div class="row">
+
+
+
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 mt-3 pl-5 text-left">
+
+
+
+          <hr class="featurette-divider">
+
+          <h1 class="h1-footer">CONTACTO</h1>
+
+          <br>
+
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-6 col-xl-6 pl-5 text-left">
+
+
+
+          <p class="P-footer">Telefono: 01 8000 95 55 90</p>
+
+          <p class="P-footer">E-mail: info@gmail.com</p>
+
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-6 col-xl-6 pr-5 text-justify">
+
+          <p class="P-footer Parrafo-footer">
+            Todos y cada uno de nosotros somos parte de esta crisis.
+            Juntos la estamos combatiendo y la vamos a vencer, mas temprano que tarde sino bajamos la guardia.
+          </p>
+        </div>
+
+
+
+        <hr class="featurette-divider">
+
+      </div>
+    </div>
+
+    <div class="container-fluid" style="opacity: 50%;">
+
+      <div class="row">
+        <div class="col-xl-12 footer-copyright p-2 text-center footer azul_2020"> © 2020 #QuedateEnCasa</div>
+      </div>
+
+    </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <!-- LINKS DE JavaScript BOOTSTRAP -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+
+
+  <!-- ----------Script Animaciones-------- -->
+  <script type="text/javascript">
+
+    $(document).ready(function () {
+
+      $(window).scroll(function () {
+        if ($(this).scrollTop() >= '200') {
+          $('.navbar').addClass('transparente');
+        } else {
+          $('.navbar').removeClass('transparente');
+        }
+      });
+
+      $(window).scroll(function () {
+        console.clear();
+        console.log("Posicion del mouse = " + $(this).scrollTop());
+
+
+        if ($(this).scrollTop() >= '630') {
+
+          $('#transmite1').css('visibility', 'visible');
+          $('#transmite2').css('visibility', 'visible');
+          $('#parrafo').css('visibility', 'visible');
+
+
+          $('#transmite1').addClass('animate__animated animate__zoomInRight');
+          $('#transmite2').addClass('animate__animated animate__zoomInLeft');
+          $('#parrafo').addClass('animate__animated animate__zoomInLeft');
+
+        }
+
+        if ($(this).scrollTop() >= '1000') {
+
+          $('#sintomas1').css('visibility', 'visible');
+          $('#sintomas2').css('visibility', 'visible');
+
+          $('#sintomas1').addClass('animate__animated  animate__fadeInLeftBig');
+          $('#sintomas2').addClass('animate__animated  animate__fadeInRightBig');
+
+        }
+
+        if ($(this).scrollTop() >= '4000') {
+
+          $('#batalla').css('visibility', 'visible');
+          $('#batalla2').css('visibility', 'visible');
+
+          $('#batalla').addClass('animate__animated  animate__fadeInLeftBig');
+          $('#batalla2').addClass('animate__animated  animate__fadeInRightBig');
+
+        }
+
+        if ($(this).scrollTop() >= '2100') {
+
+          $('#lavado').css('visibility', 'visible');
+          $('#distancia').css('visibility', 'visible');
+          $('#mascarilla').css('visibility', 'visible');
+
+          $('#lavado').addClass('animate__animated animate__pulse');
+          $('#distancia').addClass('animate__animated  animate__pulse');
+          $('#mascarilla').addClass('animate__animated  animate__pulse');
+
+        }
+
+        if ($(this).scrollTop() >= '2400') {
+
+          $('#gel').css('visibility', 'visible');
+          $('#casa').css('visibility', 'visible');
+          $('#rostro').css('visibility', 'visible');
+
+          $('#gel').addClass('animate__animated animate__pulse');
+          $('#casa').addClass('animate__animated  animate__pulse');
+          $('#rostro').addClass('animate__animated  animate__pulse');
+
+        }
+
+        if ($(this).scrollTop() >= '2900') {
+
+          $('#interes').css('visibility', 'visible');
+
+          $('#interes').addClass('animate__animated  animate__fadeInRightBig');
+
+        }
+
+        // -----------Boton Subir------------
+
+        if ($(this).scrollTop() >= '200') {
+
+          $('#boton').css('visibility', 'hidden');
+
+        }
+
+        if ($(this).scrollTop() >= '3100') {
+
+          $('#boton').css('visibility', 'visible');
+
+          $('#boton').addClass('animate__animated  animate__heartBeat');
+
+        }
+
+
+
+      });
+
+
+    });
+
+
+
+
+  </script>
+
+
+</body>
+
+</html>
